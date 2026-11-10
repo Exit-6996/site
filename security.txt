@@ -1,0 +1,22 @@
+{
+  "name": "perimeter-academy",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Bilingual defensive cybersecurity learning platform with interactive sandboxes, verified skills portfolio, and SQLite persistence.",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --check server.js"
+  },
+  "keywords": [
+    "cybersecurity",
+    "infosec",
+    "edtech",
+    "defense",
+    "soc",
+    "mitre-attack"
+  ]
+}

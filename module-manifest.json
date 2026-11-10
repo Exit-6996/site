@@ -1,0 +1,1330 @@
+[
+  {
+    "id": "01",
+    "hours": 3.5,
+    "stage": "Foundations / Основы",
+    "en": {
+      "title": "Security foundations, ethics & the profession",
+      "topics": [
+        "Explain confidentiality, integrity, availability, and how they relate to business risk.",
+        "Identify assets, owners, threats, weaknesses, controls, and evidence.",
+        "Distinguish defensive work, authorized assessment, incident response, and governance roles.",
+        "Define written authorization, scope, safe handling, and responsible reporting before practical work."
+      ],
+      "lab": "Create a security baseline for a fictional organization",
+      "guide": "Security fundamentals field guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "What information security protects",
+          "minutes": 20
+        },
+        {
+          "title": "The CIA triad and security objectives",
+          "minutes": 25
+        },
+        {
+          "title": "Assets, threats, vulnerabilities, and risk",
+          "minutes": 30
+        },
+        {
+          "title": "Controls: prevent, detect, respond, recover",
+          "minutes": 25
+        },
+        {
+          "title": "Security roles and the work of a security team",
+          "minutes": 25
+        },
+        {
+          "title": "Ethics, authorization, and evidence",
+          "minutes": 30
+        }
+      ],
+      "stage": "Foundations"
+    },
+    "ru": {
+      "title": "Основы безопасности, этика и профессия",
+      "topics": [
+        "Объяснять конфиденциальность, целостность, доступность и их связь с бизнес-риском.",
+        "Определять активы, владельцев, угрозы, слабые места, меры защиты и доказательства.",
+        "Различать защитную работу, согласованную оценку, реагирование на инциденты и управление безопасностью.",
+        "До практики определять письменное разрешение, границы работ, правила обращения с данными и порядок отчётности."
+      ],
+      "lab": "Создание базового профиля безопасности вымышленной организации",
+      "guide": "Практическое руководство по основам безопасности",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Что защищает информационная безопасность",
+          "minutes": 20
+        },
+        {
+          "title": "Триада CIA и цели безопасности",
+          "minutes": 25
+        },
+        {
+          "title": "Активы, угрозы, уязвимости и риск",
+          "minutes": 30
+        },
+        {
+          "title": "Меры защиты: предотвращение, обнаружение, реагирование и восстановление",
+          "minutes": 25
+        },
+        {
+          "title": "Роли и работа команды безопасности",
+          "minutes": 25
+        },
+        {
+          "title": "Этика, разрешение и доказательства",
+          "minutes": 30
+        }
+      ],
+      "stage": "Основы"
+    }
+  },
+  {
+    "id": "02",
+    "hours": 6,
+    "stage": "Foundations / Основы",
+    "en": {
+      "title": "Linux, endpoints & system hardening",
+      "topics": [
+        "Navigate Linux users, groups, files, permissions, processes, services, and logs.",
+        "Explain endpoint security layers: updates, host firewall, disk encryption, and endpoint protection.",
+        "Review a baseline for secure configuration and least privilege.",
+        "Document a hardening change and verify that business functionality still works."
+      ],
+      "lab": "Review and harden a fictional Linux workstation",
+      "guide": "Linux and endpoint hardening handbook",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Linux layout and essential system concepts",
+          "minutes": 30
+        },
+        {
+          "title": "Users, groups, and file permissions",
+          "minutes": 35
+        },
+        {
+          "title": "Processes, services, and startup",
+          "minutes": 35
+        },
+        {
+          "title": "System logs and audit events",
+          "minutes": 35
+        },
+        {
+          "title": "Endpoint protection baseline",
+          "minutes": 35
+        },
+        {
+          "title": "Hardening, change control, and rollback",
+          "minutes": 40
+        }
+      ],
+      "stage": "Foundations"
+    },
+    "ru": {
+      "title": "Linux, защита конечных устройств и усиление конфигурации",
+      "topics": [
+        "Работать с пользователями, группами, файлами, правами, процессами, службами и журналами Linux.",
+        "Объяснять уровни защиты конечного устройства: обновления, локальный межсетевой экран, шифрование диска и средства защиты.",
+        "Проверять базовый профиль безопасной конфигурации и принцип наименьших привилегий.",
+        "Документировать изменение конфигурации и проверять, что рабочие функции не нарушены."
+      ],
+      "lab": "Проверка и усиление защиты вымышленной Linux-рабочей станции",
+      "guide": "Руководство по защите Linux и конечных устройств",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Структура Linux и основные понятия",
+          "minutes": 30
+        },
+        {
+          "title": "Пользователи, группы и права файлов",
+          "minutes": 35
+        },
+        {
+          "title": "Процессы, службы и запуск системы",
+          "minutes": 35
+        },
+        {
+          "title": "Системные журналы и события аудита",
+          "minutes": 35
+        },
+        {
+          "title": "Базовая защита конечного устройства",
+          "minutes": 35
+        },
+        {
+          "title": "Усиление конфигурации, изменения и откат",
+          "minutes": 40
+        }
+      ],
+      "stage": "Основы"
+    }
+  },
+  {
+    "id": "03",
+    "hours": 6,
+    "stage": "Foundations / Основы",
+    "en": {
+      "title": "Networks, protocols & traffic analysis",
+      "topics": [
+        "Explain addressing, routing, DNS, TCP/UDP, TLS, HTTP, and common network boundaries.",
+        "Read a supplied packet summary and network diagram without collecting third-party traffic.",
+        "Recognize normal versus unusual patterns in synthetic network records.",
+        "Recommend segmentation and logging controls from documented business needs."
+      ],
+      "lab": "Reconstruct a fictional service request and review network zones",
+      "guide": "Network security and traffic interpretation guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "How data moves across networks",
+          "minutes": 30
+        },
+        {
+          "title": "IP addressing, subnets, and routing",
+          "minutes": 35
+        },
+        {
+          "title": "DNS, TCP, UDP, and common services",
+          "minutes": 35
+        },
+        {
+          "title": "HTTP, TLS, certificates, and proxies",
+          "minutes": 35
+        },
+        {
+          "title": "Reading network evidence safely",
+          "minutes": 35
+        },
+        {
+          "title": "Segmentation and network policy",
+          "minutes": 40
+        }
+      ],
+      "stage": "Foundations"
+    },
+    "ru": {
+      "title": "Сети, протоколы и анализ трафика",
+      "topics": [
+        "Объяснять адресацию, маршрутизацию, DNS, TCP/UDP, TLS, HTTP и границы сетей.",
+        "Читать предоставленную сводку пакетов и схему сети, не собирая трафик третьих лиц.",
+        "Распознавать обычные и необычные последовательности в синтетических сетевых записях.",
+        "Рекомендовать сегментацию и журналирование исходя из документированных бизнес-потребностей."
+      ],
+      "lab": "Восстановление пути запроса и проверка сетевых зон",
+      "guide": "Руководство по сетевой безопасности и интерпретации трафика",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Как данные проходят через сеть",
+          "minutes": 30
+        },
+        {
+          "title": "IP-адресация, подсети и маршрутизация",
+          "minutes": 35
+        },
+        {
+          "title": "DNS, TCP, UDP и распространённые службы",
+          "minutes": 35
+        },
+        {
+          "title": "HTTP, TLS, сертификаты и прокси",
+          "minutes": 35
+        },
+        {
+          "title": "Безопасное чтение сетевых доказательств",
+          "minutes": 35
+        },
+        {
+          "title": "Сегментация и сетевые политики",
+          "minutes": 40
+        }
+      ],
+      "stage": "Основы"
+    }
+  },
+  {
+    "id": "04",
+    "hours": 5,
+    "stage": "Core security / Основы безопасности",
+    "en": {
+      "title": "Asset inventory & vulnerability management",
+      "topics": [
+        "Maintain a reliable inventory of devices, applications, data stores, cloud services, and owners.",
+        "Understand vulnerability advisories, severity, exposure, exploitability context, and business impact.",
+        "Prioritize remediation using asset criticality, exposure, evidence, and available mitigations.",
+        "Track exceptions, patch validation, and remediation deadlines."
+      ],
+      "lab": "Prioritize a fictional vulnerability backlog",
+      "guide": "Asset and vulnerability management guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Asset lifecycle and ownership",
+          "minutes": 30
+        },
+        {
+          "title": "Vulnerability advisories and identifiers",
+          "minutes": 35
+        },
+        {
+          "title": "Severity is not business priority",
+          "minutes": 35
+        },
+        {
+          "title": "Patch and configuration lifecycle",
+          "minutes": 35
+        },
+        {
+          "title": "Exposure and compensating controls",
+          "minutes": 30
+        },
+        {
+          "title": "Reporting and remediation tracking",
+          "minutes": 35
+        }
+      ],
+      "stage": "Core security"
+    },
+    "ru": {
+      "title": "Инвентаризация активов и управление уязвимостями",
+      "topics": [
+        "Вести достоверный реестр устройств, приложений, хранилищ данных, облачных сервисов и владельцев.",
+        "Понимать бюллетени безопасности, критичность, экспозицию, контекст эксплуатации и бизнес-ущерб.",
+        "Расставлять приоритеты исправлений по критичности актива, экспозиции, доказательствам и доступным мерам.",
+        "Отслеживать исключения, проверку обновлений и сроки устранения."
+      ],
+      "lab": "Приоритизация вымышленного списка уязвимостей",
+      "guide": "Руководство по инвентаризации активов и управлению уязвимостями",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Жизненный цикл и владельцы активов",
+          "minutes": 30
+        },
+        {
+          "title": "Бюллетени безопасности и идентификаторы",
+          "minutes": 35
+        },
+        {
+          "title": "Критичность не равна бизнес-приоритету",
+          "minutes": 35
+        },
+        {
+          "title": "Жизненный цикл обновлений и конфигурации",
+          "minutes": 35
+        },
+        {
+          "title": "Экспозиция и компенсирующие меры",
+          "minutes": 30
+        },
+        {
+          "title": "Отчётность и отслеживание исправлений",
+          "minutes": 35
+        }
+      ],
+      "stage": "Основы безопасности"
+    }
+  },
+  {
+    "id": "05",
+    "hours": 5,
+    "stage": "Identity & application / Идентификация и приложения",
+    "en": {
+      "title": "Identity, authentication & access management",
+      "topics": [
+        "Separate identity proofing, authentication, authorization, and audit/accountability.",
+        "Apply MFA, SSO, role-based access, least privilege, and controlled service identities.",
+        "Review sessions, account lifecycle, access changes, and privileged operations.",
+        "Test allowed and denied access using fictional roles and records."
+      ],
+      "lab": "Review a sample identity and access matrix",
+      "guide": "Identity and access management handbook",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Identity lifecycle",
+          "minutes": 30
+        },
+        {
+          "title": "Authentication factors and MFA",
+          "minutes": 30
+        },
+        {
+          "title": "SSO, federation, and OAuth concepts",
+          "minutes": 35
+        },
+        {
+          "title": "Authorization and role design",
+          "minutes": 35
+        },
+        {
+          "title": "Sessions, secrets, and service accounts",
+          "minutes": 30
+        },
+        {
+          "title": "Access reviews and privileged access",
+          "minutes": 35
+        }
+      ],
+      "stage": "Identity & application"
+    },
+    "ru": {
+      "title": "Идентификация, аутентификация и управление доступом",
+      "topics": [
+        "Различать подтверждение личности, аутентификацию, авторизацию и аудит/подотчётность.",
+        "Применять MFA, SSO, ролевой доступ, наименьшие привилегии и контролируемые сервисные учётные записи.",
+        "Проверять сессии, жизненный цикл аккаунтов, изменения доступа и привилегированные операции.",
+        "Тестировать разрешённый и запрещённый доступ на вымышленных ролях и записях."
+      ],
+      "lab": "Проверка вымышленной матрицы идентификации и доступа",
+      "guide": "Руководство по управлению идентификацией и доступом",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Жизненный цикл идентификации",
+          "minutes": 30
+        },
+        {
+          "title": "Факторы аутентификации и MFA",
+          "minutes": 30
+        },
+        {
+          "title": "SSO, федерация и основы OAuth",
+          "minutes": 35
+        },
+        {
+          "title": "Авторизация и проектирование ролей",
+          "minutes": 35
+        },
+        {
+          "title": "Сессии, секреты и сервисные учётные записи",
+          "minutes": 30
+        },
+        {
+          "title": "Пересмотр доступа и привилегированный доступ",
+          "minutes": 35
+        }
+      ],
+      "stage": "Идентификация и приложения"
+    }
+  },
+  {
+    "id": "06",
+    "hours": 5,
+    "stage": "Core security / Основы безопасности",
+    "en": {
+      "title": "Cryptography, keys & public key infrastructure",
+      "topics": [
+        "Distinguish encoding, hashing, encryption, message authentication, and digital signatures.",
+        "Explain password hashing, salts, key storage, rotation, revocation, and recovery.",
+        "Read certificate identity, issuer, validity, key usage, and trust-chain information.",
+        "Choose a cryptographic control based on the property it is meant to provide."
+      ],
+      "lab": "Verify sample files and inspect a training certificate",
+      "guide": "Cryptography and PKI field guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Encoding, hashes, and encryption",
+          "minutes": 25
+        },
+        {
+          "title": "Password storage and salts",
+          "minutes": 30
+        },
+        {
+          "title": "Symmetric and public-key cryptography",
+          "minutes": 30
+        },
+        {
+          "title": "Digital signatures and message authentication",
+          "minutes": 30
+        },
+        {
+          "title": "TLS certificates and trust chains",
+          "minutes": 35
+        },
+        {
+          "title": "Key lifecycle and recovery",
+          "minutes": 35
+        }
+      ],
+      "stage": "Core security"
+    },
+    "ru": {
+      "title": "Криптография, ключи и инфраструктура открытых ключей",
+      "topics": [
+        "Различать кодирование, хеширование, шифрование, аутентификацию сообщений и цифровые подписи.",
+        "Объяснять хеширование паролей, соль, хранение, ротацию, отзыв и восстановление ключей.",
+        "Читать имя, издателя, срок действия, назначение и цепочку доверия сертификата.",
+        "Выбирать криптографическую меру исходя из требуемого свойства безопасности."
+      ],
+      "lab": "Проверка учебных файлов и сертификата",
+      "guide": "Практическое руководство по криптографии и PKI",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Кодирование, хеши и шифрование",
+          "minutes": 25
+        },
+        {
+          "title": "Хранение паролей и соль",
+          "minutes": 30
+        },
+        {
+          "title": "Симметричная и асимметричная криптография",
+          "minutes": 30
+        },
+        {
+          "title": "Цифровые подписи и аутентификация сообщений",
+          "minutes": 30
+        },
+        {
+          "title": "Сертификаты TLS и цепочки доверия",
+          "minutes": 35
+        },
+        {
+          "title": "Жизненный цикл ключей и восстановление",
+          "minutes": 35
+        }
+      ],
+      "stage": "Основы безопасности"
+    }
+  },
+  {
+    "id": "07",
+    "hours": 7,
+    "stage": "Application security / Безопасность приложений",
+    "en": {
+      "title": "Web application and API security",
+      "topics": [
+        "Understand browser/server trust boundaries, request lifecycles, and common web architecture.",
+        "Review access control, input validation, output encoding, session handling, and error behavior.",
+        "Recognize major classes of application risk using the OWASP Top 10 as a learning taxonomy.",
+        "Write findings with safe evidence, impact, remediation, and regression tests."
+      ],
+      "lab": "Review a deliberately vulnerable local training application",
+      "guide": "Secure web application review guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Map a web request and trust boundaries",
+          "minutes": 30
+        },
+        {
+          "title": "Authentication versus authorization",
+          "minutes": 35
+        },
+        {
+          "title": "Input validation and output encoding",
+          "minutes": 35
+        },
+        {
+          "title": "Session, cookie, and token handling",
+          "minutes": 35
+        },
+        {
+          "title": "Common web risk categories",
+          "minutes": 40
+        },
+        {
+          "title": "Secure code review and regression tests",
+          "minutes": 40
+        }
+      ],
+      "stage": "Application security"
+    },
+    "ru": {
+      "title": "Безопасность веб-приложений и API",
+      "topics": [
+        "Понимать границы доверия браузера и сервера, жизненный цикл запроса и типовую веб-архитектуру.",
+        "Проверять контроль доступа, валидацию ввода, кодирование вывода, сессии и обработку ошибок.",
+        "Распознавать основные классы рисков приложений, используя OWASP Top 10 как учебную классификацию.",
+        "Описывать находки с безопасными доказательствами, ущербом, исправлением и регрессионными тестами."
+      ],
+      "lab": "Проверка намеренно уязвимого локального учебного приложения",
+      "guide": "Руководство по проверке безопасности веб-приложений",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Схема веб-запроса и границ доверия",
+          "minutes": 30
+        },
+        {
+          "title": "Аутентификация и авторизация",
+          "minutes": 35
+        },
+        {
+          "title": "Валидация ввода и кодирование вывода",
+          "minutes": 35
+        },
+        {
+          "title": "Сессии, cookie и токены",
+          "minutes": 35
+        },
+        {
+          "title": "Распространённые категории веб-рисков",
+          "minutes": 40
+        },
+        {
+          "title": "Безопасное ревью кода и регрессионные тесты",
+          "minutes": 40
+        }
+      ],
+      "stage": "Безопасность приложений"
+    }
+  },
+  {
+    "id": "08",
+    "hours": 6,
+    "stage": "Application security / Безопасность приложений",
+    "en": {
+      "title": "Secure software delivery & DevSecOps",
+      "topics": [
+        "Integrate security requirements into planning, design, coding, testing, release, and maintenance.",
+        "Understand dependency, secret, code, and artifact risk at a conceptual level.",
+        "Design a proportionate CI security gate with useful findings and ownership.",
+        "Create a software bill of materials concept and a response path for vulnerable dependencies."
+      ],
+      "lab": "Review a fictional software delivery pipeline",
+      "guide": "Secure delivery lifecycle guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Secure requirements and threat modeling",
+          "minutes": 30
+        },
+        {
+          "title": "Code review and secure coding principles",
+          "minutes": 35
+        },
+        {
+          "title": "Dependency and component risk",
+          "minutes": 30
+        },
+        {
+          "title": "Secrets and build artifact hygiene",
+          "minutes": 30
+        },
+        {
+          "title": "Security checks in CI/CD",
+          "minutes": 35
+        },
+        {
+          "title": "Release evidence and vulnerability response",
+          "minutes": 35
+        }
+      ],
+      "stage": "Application security"
+    },
+    "ru": {
+      "title": "Безопасная разработка и DevSecOps",
+      "topics": [
+        "Встраивать требования безопасности в планирование, проектирование, разработку, тестирование, выпуск и сопровождение.",
+        "Понимать риски зависимостей, секретов, кода и артефактов на концептуальном уровне.",
+        "Проектировать соразмерные проверки безопасности в CI с понятными результатами и ответственными.",
+        "Понимать назначение перечня компонентов ПО и порядок реагирования на уязвимые зависимости."
+      ],
+      "lab": "Проверка вымышленного конвейера доставки ПО",
+      "guide": "Руководство по безопасному жизненному циклу поставки ПО",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Требования безопасности и моделирование угроз",
+          "minutes": 30
+        },
+        {
+          "title": "Ревью кода и принципы безопасной разработки",
+          "minutes": 35
+        },
+        {
+          "title": "Риски зависимостей и компонентов",
+          "minutes": 30
+        },
+        {
+          "title": "Секреты и безопасность артефактов сборки",
+          "minutes": 30
+        },
+        {
+          "title": "Проверки безопасности в CI/CD",
+          "minutes": 35
+        },
+        {
+          "title": "Доказательства выпуска и реагирование на уязвимости",
+          "minutes": 35
+        }
+      ],
+      "stage": "Безопасность приложений"
+    }
+  },
+  {
+    "id": "09",
+    "hours": 6,
+    "stage": "Infrastructure defense / Защита инфраструктуры",
+    "en": {
+      "title": "Network defense, architecture & secure remote access",
+      "topics": [
+        "Design layered network zones for users, public services, administration, and sensitive data.",
+        "Understand firewall policy, secure remote administration, VPN concepts, and network device management.",
+        "Review secure network architecture using documented flows and change records.",
+        "Assess resilience controls such as redundancy, backup connectivity, and configuration recovery."
+      ],
+      "lab": "Review a fictional enterprise network design",
+      "guide": "Network architecture defense guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Network security architecture",
+          "minutes": 30
+        },
+        {
+          "title": "Firewall policy and rule ownership",
+          "minutes": 35
+        },
+        {
+          "title": "Secure remote access",
+          "minutes": 30
+        },
+        {
+          "title": "Network device management",
+          "minutes": 30
+        },
+        {
+          "title": "Resilience and recovery",
+          "minutes": 30
+        },
+        {
+          "title": "Architecture review mission",
+          "minutes": 35
+        }
+      ],
+      "stage": "Infrastructure defense"
+    },
+    "ru": {
+      "title": "Сетевая защита, архитектура и безопасный удалённый доступ",
+      "topics": [
+        "Проектировать эшелонированные сетевые зоны для пользователей, публичных сервисов, администрирования и чувствительных данных.",
+        "Понимать политики межсетевых экранов, безопасное удалённое администрирование, принципы VPN и управление сетевыми устройствами.",
+        "Проверять безопасную сетевую архитектуру по документированным потокам и журналам изменений.",
+        "Оценивать устойчивость: резервирование, запасные каналы и восстановление конфигураций."
+      ],
+      "lab": "Проверка схемы сети вымышленной организации",
+      "guide": "Руководство по защите сетевой архитектуры",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Архитектура сетевой безопасности",
+          "minutes": 30
+        },
+        {
+          "title": "Политика межсетевого экрана и владельцы правил",
+          "minutes": 35
+        },
+        {
+          "title": "Безопасный удалённый доступ",
+          "minutes": 30
+        },
+        {
+          "title": "Управление сетевыми устройствами",
+          "minutes": 30
+        },
+        {
+          "title": "Устойчивость и восстановление",
+          "minutes": 30
+        },
+        {
+          "title": "Практическая проверка архитектуры",
+          "minutes": 35
+        }
+      ],
+      "stage": "Защита инфраструктуры"
+    }
+  },
+  {
+    "id": "10",
+    "hours": 6,
+    "stage": "Infrastructure defense / Защита инфраструктуры",
+    "en": {
+      "title": "Cloud, containers & infrastructure security",
+      "topics": [
+        "Understand shared responsibility and cloud identity, network, storage, and logging controls.",
+        "Review configuration-as-code and change histories for security-relevant drift.",
+        "Understand container image, runtime, secret, and orchestration security concepts.",
+        "Create a practical cloud hardening and recovery checklist."
+      ],
+      "lab": "Audit a synthetic cloud and container environment",
+      "guide": "Cloud and container security guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Shared responsibility and cloud identity",
+          "minutes": 30
+        },
+        {
+          "title": "Cloud network and storage controls",
+          "minutes": 35
+        },
+        {
+          "title": "Infrastructure as code review",
+          "minutes": 35
+        },
+        {
+          "title": "Container image and runtime hygiene",
+          "minutes": 35
+        },
+        {
+          "title": "Orchestration and secret management",
+          "minutes": 35
+        },
+        {
+          "title": "Cloud incident readiness",
+          "minutes": 35
+        }
+      ],
+      "stage": "Infrastructure defense"
+    },
+    "ru": {
+      "title": "Безопасность облаков, контейнеров и инфраструктуры",
+      "topics": [
+        "Понимать общую ответственность и облачные меры для идентификации, сетей, хранилищ и журналирования.",
+        "Проверять инфраструктуру как код и историю изменений на предмет дрейфа конфигурации.",
+        "Понимать концепции безопасности образов контейнеров, среды выполнения, секретов и оркестрации.",
+        "Создавать практический чек-лист усиления защиты облака и восстановления."
+      ],
+      "lab": "Аудит синтетической облачной и контейнерной среды",
+      "guide": "Руководство по безопасности облака и контейнеров",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Общая ответственность и облачная идентификация",
+          "minutes": 30
+        },
+        {
+          "title": "Облачные сети и хранилища",
+          "minutes": 35
+        },
+        {
+          "title": "Ревью инфраструктуры как кода",
+          "minutes": 35
+        },
+        {
+          "title": "Безопасность образов и среды контейнеров",
+          "minutes": 35
+        },
+        {
+          "title": "Оркестрация и управление секретами",
+          "minutes": 35
+        },
+        {
+          "title": "Готовность к облачным инцидентам",
+          "minutes": 35
+        }
+      ],
+      "stage": "Защита инфраструктуры"
+    }
+  },
+  {
+    "id": "11",
+    "hours": 7,
+    "stage": "Security operations / Операционная безопасность",
+    "en": {
+      "title": "Logging, SIEM & detection engineering",
+      "topics": [
+        "Understand endpoint, identity, network, application, and cloud telemetry sources.",
+        "Normalize event fields and correlate timestamps while preserving original evidence.",
+        "Build detection logic with a purpose, data source, threshold rationale, and false-positive analysis.",
+        "Triage alerts using context, severity, confidence, and business impact."
+      ],
+      "lab": "Investigate a synthetic alert set",
+      "guide": "SOC monitoring and detection playbook",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Telemetry sources and event schemas",
+          "minutes": 30
+        },
+        {
+          "title": "Time, identity, and normalization",
+          "minutes": 35
+        },
+        {
+          "title": "Correlation and baselines",
+          "minutes": 35
+        },
+        {
+          "title": "Detection logic and alert quality",
+          "minutes": 35
+        },
+        {
+          "title": "Triage, severity, and escalation",
+          "minutes": 35
+        },
+        {
+          "title": "Detection tuning and metrics",
+          "minutes": 35
+        }
+      ],
+      "stage": "Security operations"
+    },
+    "ru": {
+      "title": "Журналирование, SIEM и разработка правил обнаружения",
+      "topics": [
+        "Понимать источники телеметрии конечных устройств, идентификации, сети, приложений и облака.",
+        "Нормализовать поля событий и сопоставлять время, сохраняя исходные доказательства.",
+        "Создавать правила обнаружения с целью, источником данных, обоснованием порогов и анализом ложных срабатываний.",
+        "Разбирать оповещения с учётом контекста, критичности, уверенности и бизнес-ущерба."
+      ],
+      "lab": "Расследование набора синтетических оповещений",
+      "guide": "Практическое руководство по мониторингу SOC и обнаружению",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Источники телеметрии и схемы событий",
+          "minutes": 30
+        },
+        {
+          "title": "Время, идентичность и нормализация",
+          "minutes": 35
+        },
+        {
+          "title": "Корреляция и базовые профили",
+          "minutes": 35
+        },
+        {
+          "title": "Логика обнаружения и качество оповещений",
+          "minutes": 35
+        },
+        {
+          "title": "Первичный разбор, критичность и эскалация",
+          "minutes": 35
+        },
+        {
+          "title": "Настройка обнаружения и метрики",
+          "minutes": 35
+        }
+      ],
+      "stage": "Операционная безопасность"
+    }
+  },
+  {
+    "id": "12",
+    "hours": 7,
+    "stage": "Security operations / Операционная безопасность",
+    "en": {
+      "title": "Incident response & digital forensics",
+      "topics": [
+        "Use a repeatable lifecycle: prepare, detect, analyze, contain, eradicate, recover, and learn.",
+        "Preserve evidence with timestamps, provenance, access control, and chain-of-custody notes.",
+        "Build timelines from synthetic endpoint, identity, and application records.",
+        "Coordinate business owners, technical responders, legal/privacy contacts, and communications."
+      ],
+      "lab": "Run a tabletop incident with synthetic evidence",
+      "guide": "Incident response and evidence handbook",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Incident roles and preparation",
+          "minutes": 30
+        },
+        {
+          "title": "Evidence handling and preservation",
+          "minutes": 35
+        },
+        {
+          "title": "Timeline reconstruction",
+          "minutes": 35
+        },
+        {
+          "title": "Containment and eradication decisions",
+          "minutes": 35
+        },
+        {
+          "title": "Recovery and validation",
+          "minutes": 35
+        },
+        {
+          "title": "Post-incident review and lessons",
+          "minutes": 30
+        }
+      ],
+      "stage": "Security operations"
+    },
+    "ru": {
+      "title": "Реагирование на инциденты и цифровая криминалистика",
+      "topics": [
+        "Использовать повторяемый цикл: подготовка, обнаружение, анализ, сдерживание, устранение, восстановление и выводы.",
+        "Сохранять доказательства с временными метками, происхождением, контролем доступа и записями цепочки хранения.",
+        "Строить хронологию по синтетическим записям конечных устройств, идентификации и приложений.",
+        "Координировать владельцев бизнеса, технических специалистов, контакты по правовым вопросам и коммуникации."
+      ],
+      "lab": "Настольное расследование инцидента по синтетическим доказательствам",
+      "guide": "Руководство по реагированию и доказательствам",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Роли и подготовка к инцидентам",
+          "minutes": 30
+        },
+        {
+          "title": "Работа с доказательствами и их сохранение",
+          "minutes": 35
+        },
+        {
+          "title": "Восстановление хронологии",
+          "minutes": 35
+        },
+        {
+          "title": "Решения о сдерживании и устранении",
+          "minutes": 35
+        },
+        {
+          "title": "Восстановление и проверка",
+          "minutes": 35
+        },
+        {
+          "title": "Разбор инцидента и выводы",
+          "minutes": 30
+        }
+      ],
+      "stage": "Операционная безопасность"
+    }
+  },
+  {
+    "id": "13",
+    "hours": 5,
+    "stage": "Security engineering / Инженерия безопасности",
+    "en": {
+      "title": "Threat modeling, threat intelligence & attack surfaces",
+      "topics": [
+        "Use structured threat modeling to identify assets, trust boundaries, threat events, and mitigations.",
+        "Distinguish threat intelligence sources, confidence, relevance, and expiration.",
+        "Use behavior frameworks as a shared vocabulary for defensive coverage, not as instructions.",
+        "Translate threat insights into architecture, logging, and prioritization decisions."
+      ],
+      "lab": "Threat-model a fictional member portal",
+      "guide": "Threat modeling and intelligence guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Assets, trust boundaries, and attack surface",
+          "minutes": 30
+        },
+        {
+          "title": "STRIDE-style threat brainstorming",
+          "minutes": 35
+        },
+        {
+          "title": "Threat intelligence quality",
+          "minutes": 30
+        },
+        {
+          "title": "Behavior frameworks for defenders",
+          "minutes": 30
+        },
+        {
+          "title": "Attack-surface change review",
+          "minutes": 30
+        },
+        {
+          "title": "Threat-informed improvement plan",
+          "minutes": 35
+        }
+      ],
+      "stage": "Security engineering"
+    },
+    "ru": {
+      "title": "Моделирование угроз, киберразведка и поверхность атаки",
+      "topics": [
+        "Использовать структурированное моделирование угроз для выявления активов, границ доверия, угроз и мер.",
+        "Различать источники киберразведки, уверенность, применимость и срок актуальности.",
+        "Использовать поведенческие матрицы как общий язык для оценки защиты, а не как инструкции.",
+        "Преобразовывать аналитические сведения об угрозах в решения по архитектуре, журналированию и приоритетам."
+      ],
+      "lab": "Моделирование угроз вымышленного личного кабинета",
+      "guide": "Руководство по моделированию угроз и киберразведке",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Активы, границы доверия и поверхность атаки",
+          "minutes": 30
+        },
+        {
+          "title": "Моделирование угроз по категориям STRIDE",
+          "minutes": 35
+        },
+        {
+          "title": "Качество данных киберразведки",
+          "minutes": 30
+        },
+        {
+          "title": "Матрицы поведения для защитников",
+          "minutes": 30
+        },
+        {
+          "title": "Проверка изменений поверхности атаки",
+          "minutes": 30
+        },
+        {
+          "title": "План улучшений с учётом угроз",
+          "minutes": 35
+        }
+      ],
+      "stage": "Инженерия безопасности"
+    }
+  },
+  {
+    "id": "14",
+    "hours": 5,
+    "stage": "Security governance / Управление безопасностью",
+    "en": {
+      "title": "Governance, risk, compliance & privacy",
+      "topics": [
+        "Translate business obligations into policies, standards, procedures, and measurable controls.",
+        "Understand risk acceptance, supplier assurance, evidence, audit, and exception management.",
+        "Map personal-data flows, purpose, retention, access, and deletion responsibilities.",
+        "Communicate compliance gaps without confusing a checklist with actual security."
+      ],
+      "lab": "Build a risk, privacy, and control register",
+      "guide": "Governance, risk, compliance, and privacy guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Governance documents and ownership",
+          "minutes": 25
+        },
+        {
+          "title": "Risk treatment and acceptance",
+          "minutes": 30
+        },
+        {
+          "title": "Privacy and data lifecycle",
+          "minutes": 35
+        },
+        {
+          "title": "Supplier and third-party assurance",
+          "minutes": 30
+        },
+        {
+          "title": "Audit evidence and control testing",
+          "minutes": 30
+        },
+        {
+          "title": "Policy exceptions and continuous review",
+          "minutes": 30
+        }
+      ],
+      "stage": "Security governance"
+    },
+    "ru": {
+      "title": "Управление безопасностью, риски, соответствие требованиям и приватность",
+      "topics": [
+        "Преобразовывать бизнес-обязательства в политики, стандарты, процедуры и измеримые меры.",
+        "Понимать принятие риска, оценку поставщиков, доказательства, аудит и управление исключениями.",
+        "Составлять карту потоков персональных данных, целей, сроков хранения, доступа и удаления.",
+        "Сообщать о пробелах соответствия, не путая контрольный список с реальной безопасностью."
+      ],
+      "lab": "Создание реестра рисков, приватности и мер защиты",
+      "guide": "Руководство по управлению, рискам, соответствию и приватности",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Документы управления и ответственность",
+          "minutes": 25
+        },
+        {
+          "title": "Обработка и принятие риска",
+          "minutes": 30
+        },
+        {
+          "title": "Приватность и жизненный цикл данных",
+          "minutes": 35
+        },
+        {
+          "title": "Оценка поставщиков и третьих сторон",
+          "minutes": 30
+        },
+        {
+          "title": "Аудиторские доказательства и тестирование мер",
+          "minutes": 30
+        },
+        {
+          "title": "Исключения из политики и постоянный пересмотр",
+          "minutes": 30
+        }
+      ],
+      "stage": "Управление безопасностью"
+    }
+  },
+  {
+    "id": "15",
+    "hours": 4,
+    "stage": "Professional practice / Профессиональная практика",
+    "en": {
+      "title": "Security operations, automation & professional communication",
+      "topics": [
+        "Run repeatable security workflows for tickets, escalations, evidence, and change.",
+        "Understand where simple automation helps and where human approval is required.",
+        "Write concise findings, runbooks, and status updates for technical and non-technical readers.",
+        "Prepare a portfolio that demonstrates reasoning, documentation, and responsible practice."
+      ],
+      "lab": "Turn a synthetic alert into a complete security work item",
+      "guide": "Security operations and communication guide",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Security tickets and workflow states",
+          "minutes": 25
+        },
+        {
+          "title": "Automation boundaries and approvals",
+          "minutes": 25
+        },
+        {
+          "title": "Runbooks and operational handover",
+          "minutes": 25
+        },
+        {
+          "title": "Metrics and service-level thinking",
+          "minutes": 25
+        },
+        {
+          "title": "Communicating findings and uncertainty",
+          "minutes": 25
+        },
+        {
+          "title": "Portfolio and interview preparation",
+          "minutes": 30
+        }
+      ],
+      "stage": "Professional practice"
+    },
+    "ru": {
+      "title": "Операционная безопасность, автоматизация и профессиональная коммуникация",
+      "topics": [
+        "Выполнять повторяемые процессы безопасности для заявок, эскалаций, доказательств и изменений.",
+        "Понимать, где помогает простая автоматизация, а где обязательно согласование человеком.",
+        "Писать понятные находки, регламенты и статусные сообщения для технической и нетехнической аудитории.",
+        "Готовить портфолио, демонстрирующее мышление, документацию и ответственную практику."
+      ],
+      "lab": "Преобразование синтетического оповещения в полную рабочую задачу",
+      "guide": "Руководство по операционной безопасности и коммуникации",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Заявки безопасности и этапы работы",
+          "minutes": 25
+        },
+        {
+          "title": "Границы автоматизации и согласования",
+          "minutes": 25
+        },
+        {
+          "title": "Регламенты и передача смены",
+          "minutes": 25
+        },
+        {
+          "title": "Метрики и мышление уровня сервиса",
+          "minutes": 25
+        },
+        {
+          "title": "Коммуникация находок и неопределённости",
+          "minutes": 25
+        },
+        {
+          "title": "Портфолио и подготовка к собеседованию",
+          "minutes": 30
+        }
+      ],
+      "stage": "Профессиональная практика"
+    }
+  },
+  {
+    "id": "16",
+    "hours": 8,
+    "stage": "Professional practice / Профессиональная практика",
+    "en": {
+      "title": "Capstone: end-to-end security assessment & response",
+      "topics": [
+        "Combine asset, architecture, identity, application, cloud, and monitoring evidence in one scenario.",
+        "Prioritize findings and distinguish confirmed issues from assumptions or missing evidence.",
+        "Produce an executive summary, technical report, remediation roadmap, and response playbook.",
+        "Present a defensible conclusion with scope, methods, limitations, and follow-up validation."
+      ],
+      "lab": "Integrated assessment of the fictional Northstar service",
+      "guide": "Capstone delivery and assessment handbook",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Capstone briefing and scope",
+          "minutes": 30
+        },
+        {
+          "title": "Asset and architecture assessment",
+          "minutes": 40
+        },
+        {
+          "title": "Identity, application, and cloud review",
+          "minutes": 40
+        },
+        {
+          "title": "Detection and incident scenario",
+          "minutes": 45
+        },
+        {
+          "title": "Risk prioritization and remediation plan",
+          "minutes": 40
+        },
+        {
+          "title": "Report writing and peer review",
+          "minutes": 45
+        }
+      ],
+      "stage": "Professional practice"
+    },
+    "ru": {
+      "title": "Итоговый проект: комплексная оценка безопасности и реагирование",
+      "topics": [
+        "Объединять доказательства по активам, архитектуре, идентификации, приложениям, облаку и мониторингу в одном сценарии.",
+        "Приоритизировать находки и различать подтверждённые проблемы, предположения и отсутствующие доказательства.",
+        "Готовить резюме для руководства, технический отчёт, план исправлений и регламент реагирования.",
+        "Представлять обоснованный вывод с границами, методами, ограничениями и последующей проверкой."
+      ],
+      "lab": "Комплексная оценка вымышленного сервиса Northstar",
+      "guide": "Руководство по выполнению и оценке итогового проекта",
+      "lesson_count": 6,
+      "lessons": [
+        {
+          "title": "Брифинг итогового проекта и границы",
+          "minutes": 30
+        },
+        {
+          "title": "Оценка активов и архитектуры",
+          "minutes": 40
+        },
+        {
+          "title": "Проверка идентификации, приложения и облака",
+          "minutes": 40
+        },
+        {
+          "title": "Сценарий обнаружения и инцидента",
+          "minutes": 45
+        },
+        {
+          "title": "Приоритизация рисков и план исправлений",
+          "minutes": 40
+        },
+        {
+          "title": "Подготовка отчёта и взаимная проверка",
+          "minutes": 45
+        }
+      ],
+      "stage": "Профессиональная практика"
+    }
+  }
+]
